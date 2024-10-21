@@ -1,0 +1,54 @@
+* {
+    background-color: #86c9ed;}
+
+h1{
+    background: none;
+   color: rgb(255, 255, 255);
+   font-size: 150px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+    #cabeçalho {
+    position: relative;
+    text-align: center;
+}
+
+#img-topo {
+    content: '';
+    top: 50px;
+    background-image: url(125857_blog.jpg) ;
+    font-size: 100px;
+    width: 100%;
+    height: 250px;
+    display: block;
+    z-index: 1;
+}
+
+#título {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+    font-size: 30px;
+    background:none;
+}
+
+#subtitulo {
+    text-align: center;
+    margin-top: 50px;
+    font-size: x-large
+}
+
+#formulário{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    font-size: xx-large;
+    text-align: center;
+}
+
+h4 {
+font-size: 20px;
+}
